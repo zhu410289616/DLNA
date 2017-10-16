@@ -13,6 +13,11 @@
 		83C20A341F8E352F00257D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C20A331F8E352F00257D28 /* Assets.xcassets */; };
 		83C20A371F8E352F00257D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C20A351F8E352F00257D28 /* LaunchScreen.storyboard */; };
 		83C20A3A1F8E352F00257D28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C20A391F8E352F00257D28 /* main.m */; };
+		83E180791F94D431006CCAA0 /* RHNLDAService.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E180711F94D431006CCAA0 /* RHNLDAService.m */; };
+		83E1807A1F94D431006CCAA0 /* RHSSDPSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E180731F94D431006CCAA0 /* RHSSDPSearchModel.m */; };
+		83E1807B1F94D431006CCAA0 /* RHUdpConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E180751F94D431006CCAA0 /* RHUdpConnection.m */; };
+		83E1807C1F94D431006CCAA0 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E180781F94D431006CCAA0 /* GCDAsyncUdpSocket.m */; };
+		83E180821F94DDB3006CCAA0 /* RHUPnPDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E180811F94DDB3006CCAA0 /* RHUPnPDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		83C20A361F8E352F00257D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83C20A381F8E352F00257D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83C20A391F8E352F00257D28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83E180701F94D431006CCAA0 /* RHNLDAService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHNLDAService.h; sourceTree = "<group>"; };
+		83E180711F94D431006CCAA0 /* RHNLDAService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHNLDAService.m; sourceTree = "<group>"; };
+		83E180721F94D431006CCAA0 /* RHSSDPSearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHSSDPSearchModel.h; sourceTree = "<group>"; };
+		83E180731F94D431006CCAA0 /* RHSSDPSearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHSSDPSearchModel.m; sourceTree = "<group>"; };
+		83E180741F94D431006CCAA0 /* RHUdpConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHUdpConnection.h; sourceTree = "<group>"; };
+		83E180751F94D431006CCAA0 /* RHUdpConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHUdpConnection.m; sourceTree = "<group>"; };
+		83E180771F94D431006CCAA0 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		83E180781F94D431006CCAA0 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		83E180801F94DDB3006CCAA0 /* RHUPnPDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHUPnPDevice.h; sourceTree = "<group>"; };
+		83E180811F94DDB3006CCAA0 /* RHUPnPDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHUPnPDevice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +57,7 @@
 		83C20A1E1F8E352F00257D28 = {
 			isa = PBXGroup;
 			children = (
+				83E1806F1F94D431006CCAA0 /* Classes */,
 				83C20A291F8E352F00257D28 /* DLNAClient */,
 				83C20A281F8E352F00257D28 /* Products */,
 			);
@@ -69,6 +85,32 @@
 				83C20A391F8E352F00257D28 /* main.m */,
 			);
 			path = DLNAClient;
+			sourceTree = "<group>";
+		};
+		83E1806F1F94D431006CCAA0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83E180701F94D431006CCAA0 /* RHNLDAService.h */,
+				83E180711F94D431006CCAA0 /* RHNLDAService.m */,
+				83E180721F94D431006CCAA0 /* RHSSDPSearchModel.h */,
+				83E180731F94D431006CCAA0 /* RHSSDPSearchModel.m */,
+				83E180741F94D431006CCAA0 /* RHUdpConnection.h */,
+				83E180751F94D431006CCAA0 /* RHUdpConnection.m */,
+				83E180761F94D431006CCAA0 /* Vendor */,
+				83E180801F94DDB3006CCAA0 /* RHUPnPDevice.h */,
+				83E180811F94DDB3006CCAA0 /* RHUPnPDevice.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		83E180761F94D431006CCAA0 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				83E180771F94D431006CCAA0 /* GCDAsyncUdpSocket.h */,
+				83E180781F94D431006CCAA0 /* GCDAsyncUdpSocket.m */,
+			);
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E180821F94DDB3006CCAA0 /* RHUPnPDevice.m in Sources */,
+				83E180791F94D431006CCAA0 /* RHNLDAService.m in Sources */,
+				83E1807B1F94D431006CCAA0 /* RHUdpConnection.m in Sources */,
 				83C20A2F1F8E352F00257D28 /* ViewController.m in Sources */,
 				83C20A3A1F8E352F00257D28 /* main.m in Sources */,
+				83E1807C1F94D431006CCAA0 /* GCDAsyncUdpSocket.m in Sources */,
+				83E1807A1F94D431006CCAA0 /* RHSSDPSearchModel.m in Sources */,
 				83C20A2C1F8E352F00257D28 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
